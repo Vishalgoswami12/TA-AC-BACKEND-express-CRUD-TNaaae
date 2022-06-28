@@ -12,7 +12,7 @@ let userRoutes = require("./routes/users");
 mongoose.connect("mongodb://127.0.0.1:27017/users", (err) => {
   console.log(err ? "Connection is failed" : "Connection is made successfully");
 });
-// all the middelwares
+// all the middelwares d
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.urlencoded({ extended: false }));
